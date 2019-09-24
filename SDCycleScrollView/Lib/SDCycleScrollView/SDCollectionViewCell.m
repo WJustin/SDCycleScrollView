@@ -69,7 +69,7 @@
 
 - (void)setupImageView
 {
-    UIImageView *imageView = [[UIImageView alloc] init];
+    SDAnimatedImageView *imageView = [[SDAnimatedImageView alloc] init];
     _imageView = imageView;
     [self.contentView addSubview:imageView];
 }
