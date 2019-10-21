@@ -1,0 +1,6 @@
+framework module SDCycleScrollView {
+  umbrella header "SDCycleScrollView.h"
+
+  export *
+  module * { export * }
+}
