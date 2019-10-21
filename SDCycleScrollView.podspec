@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "SDCycleScrollView"
-s.version      = "1.81"
+s.version      = "1.82"
 s.summary      = "简单易用的图片无限轮播器. 1.80版本更新内容：适配SDWebImage 5.0.0"
 
 s.homepage     = "https://github.com/gsdios/SDCycleScrollView"
