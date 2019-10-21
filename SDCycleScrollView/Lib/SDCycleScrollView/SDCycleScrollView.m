@@ -97,6 +97,10 @@ NSString * const ID = @"SDCycleScrollViewCell";
     
 }
 
+- (UIScrollView *)gs_scollerView {
+    return self.mainView;
+}
+
 + (instancetype)cycleScrollViewWithFrame:(CGRect)frame imageNamesGroup:(NSArray *)imageNamesGroup
 {
     SDCycleScrollView *cycleScrollView = [[self alloc] initWithFrame:frame];

@@ -93,6 +93,8 @@ typedef enum {
 /** 本地图片轮播初始化方式2,infiniteLoop:是否无限循环 */
 + (instancetype)cycleScrollViewWithFrame:(CGRect)frame shouldInfiniteLoop:(BOOL)infiniteLoop imageNamesGroup:(NSArray *)imageNamesGroup;
 
+@property (nonatomic, weak, readonly) UIScrollView *gs_scollerView;
+
 
 //////////////////////  数据源API //////////////////////
 
